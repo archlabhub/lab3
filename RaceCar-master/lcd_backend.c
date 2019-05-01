@@ -2,7 +2,7 @@
 #include "booster1202.h"
 #include "lcd_backend.h"
 
-#include "msp430g2553.h"
+#include "msp430.h"
 #include "STE2007.h"
 
 void lcdinit(void)
