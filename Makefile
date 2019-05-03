@@ -9,7 +9,7 @@ CC              = msp430-elf-gcc
 AS              = msp430-elf-as
 AR              = msp430-elf-ar
 
-p2sw-demo.elf: timeLord.o
+timeLord.elf: timeLord.o
 	$(CC) $(CFLAGS) ${LDFLAGS} -o $@ $^ -lLcd -lp2sw -lTimer
 
 clean:
